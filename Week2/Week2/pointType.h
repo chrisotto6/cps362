@@ -8,7 +8,7 @@ using namespace std;
 
 class pointType
 {
-private:
+protected:
 	// Member function prototypes
 	float xCoordinate;
 	float yCoordinate;
@@ -29,9 +29,9 @@ public:
 	void printCoordinates();
 
 	// Retrieve the x coordinate
-	float getXCoordinate();
+	float getXCoordinate() const;
 
 	// Retrieve the y coordinate
-	float getYCoordinate();
+	float getYCoordinate() const;
 };
 #endif

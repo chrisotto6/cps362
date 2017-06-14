@@ -137,6 +137,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="circleType.h" />
     <ClInclude Include="info.h" />
     <ClInclude Include="pointType.h" />
     <ClInclude Include="resource.h" />
@@ -147,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="circleType.cpp" />
     <ClCompile Include="info.cpp" />
     <ClCompile Include="pointType.cpp" />
     <ClCompile Include="stdafx.cpp">

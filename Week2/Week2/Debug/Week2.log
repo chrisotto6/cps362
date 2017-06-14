@@ -1,4 +1,4 @@
-﻿  Week2.cpp
+﻿  pointType.cpp
   AssemblyInfo.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
   Week2.vcxproj -> C:\Git\CPS362\Week2\Debug\Week2.exe
   Week2.vcxproj -> C:\Git\CPS362\Week2\Debug\Week2.pdb (Partial PDB)

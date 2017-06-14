@@ -6,6 +6,7 @@
 #include <iomanip>
 
 using namespace std;
+
 // Default constructor 
 pointType::pointType()
 {
@@ -23,7 +24,7 @@ pointType::pointType(float xCoord, float yCoord)
 // Displays the point
 void pointType::displayPoint()
 {
-	cout << "(" << xCoordinate << ", " << yCoordinate << ")\n" << endl;
+	cout << "\n(" << xCoordinate << ", " << yCoordinate << ")\n" << endl;
 }
 
 // Sets the coordinates 
@@ -36,17 +37,17 @@ void pointType::setCoordinates(float xCoord, float yCoord)
 // Prints the coordinates
 void pointType::printCoordinates()
 {
-	cout << "The point is (" << xCoordinate << ", " << yCoordinate << ")\n" << endl;
+	cout << "\nThe point is (" << xCoordinate << ", " << yCoordinate << ")" << endl;
 }
 
 // Returns the xCoordinate 
-float pointType::getXCoordinate()
+float pointType::getXCoordinate() const
 {
 	return xCoordinate;
 }
 
 // Returns the yCoordinate
-float pointType::getYCoordinate()
+float pointType::getYCoordinate() const
 {
 	return yCoordinate;
 }
