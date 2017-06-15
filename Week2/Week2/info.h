@@ -3,7 +3,9 @@
 
 #ifndef INFO_H
 #define INFO_H
+
 #include <string>
+
 using namespace std;
 
 class info

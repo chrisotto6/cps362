@@ -1,9 +1,9 @@
 //Programmer:  Chris Otto
 //Purpose   :  Class definitions for the Circle Type class
 
-#include "pointType.h"
 #ifndef CIRCLETYPE_H
 #define CIRCLETYPE_H
+#include "pointType.h"
 
 using namespace std;
 
