@@ -1,10 +1,8 @@
-﻿  AssemblyInfo.cpp
+﻿  Week2.cpp
   circleType.cpp
 circleType.cpp(31): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
 circleType.cpp(43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-  info.cpp
   pointType.cpp
-  Week2.cpp
   Generating Code...
   AssemblyInfo.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
   Week2.vcxproj -> C:\Users\chris\Documents\cps362\Week2\Debug\Week2.exe

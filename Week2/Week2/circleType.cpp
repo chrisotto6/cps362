@@ -52,7 +52,7 @@ void circleType::printCircum()
 // Print all the items from the circle type and point class 
 void circleType::print()
 {
-	printCoordinates();
+	pointType::printCoordinates();
 	printRadius();
 	printArea();
 	printCircum();
