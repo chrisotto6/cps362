@@ -1,0 +1,7 @@
+﻿  mathFun.cpp
+mathFun.cpp(57): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  Week4.cpp
+  Generating Code...
+c:\git\cps362\week4\week4\mathfun.cpp(54): warning C4700: uninitialized local variable 'sum' used
+  Week4.vcxproj -> C:\Git\CPS362\Week4\Debug\Week4.exe
+  Week4.vcxproj -> C:\Git\CPS362\Week4\Debug\Week4.pdb (Full PDB)

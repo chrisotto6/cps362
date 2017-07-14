@@ -35,6 +35,16 @@ const int & safeArray::operator[](int) const
 	// TODO: insert return statement here
 }
 
+bool safeArray::operator==(const safeArray & right)
+{
+	return false;
+}
+
+bool safeArray::operator!=(const safeArray & right)
+{
+	return false;
+}
+
 ostream & operator<<(ostream &, const safeArray &)
 {
 	// TODO: insert return statement here
