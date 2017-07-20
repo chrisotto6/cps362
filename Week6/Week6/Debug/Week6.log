@@ -1,2 +1,5 @@
-﻿  Main.cpp
-c:\git\cps362\week6\week6\main.cpp(18): error C4700: uninitialized local variable 'list' used
+﻿  mainUI.cpp
+  Main.cpp
+  Generating Code...
+  Week6.vcxproj -> C:\Git\CPS362\Week6\Debug\Week6.exe
+  Week6.vcxproj -> C:\Git\CPS362\Week6\Debug\Week6.pdb (Full PDB)

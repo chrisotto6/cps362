@@ -21,7 +21,7 @@
     <ClCompile Include="info.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="occurances.cpp">
+    <ClCompile Include="mainUI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,10 +29,13 @@
     <ClInclude Include="info.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="occurances.h">
+    <ClInclude Include="linkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="linkedList.h">
+    <ClInclude Include="unorderedLinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mainUI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
