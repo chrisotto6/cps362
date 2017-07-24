@@ -1,0 +1,7 @@
+﻿  info.cpp
+  Main.cpp
+  mainUI.cpp
+  Generating Code...
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
+  info.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+LINK : fatal error LNK1561: entry point must be defined
