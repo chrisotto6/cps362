@@ -1,0 +1,4 @@
+﻿  mainUI.cpp
+  info.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  Week10.vcxproj -> C:\git\cps362\Week10\Debug\Week10.exe
+  Week10.vcxproj -> C:\git\cps362\Week10\Debug\Week10.pdb (Partial PDB)
