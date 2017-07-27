@@ -1,0 +1,4 @@
+﻿  calculator.cpp
+  calculator.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  Week9.vcxproj -> C:\git\cps362\Week9\Debug\Week9.exe
+  Week9.vcxproj -> C:\git\cps362\Week9\Debug\Week9.pdb (Partial PDB)
