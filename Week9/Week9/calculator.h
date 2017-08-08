@@ -7,6 +7,7 @@
 
 #ifndef CALCULATOR_H
 #define CALCULATOR_H
+
 #define OPERATOR 0
 #define DATA 1
 #define FAIL 1
@@ -30,22 +31,16 @@ struct node {
 ref class calculator
 {
 public:
-	calculator();
-	void calculate();
-	int scan(DataNode *node, FILE *fptr); /*Gets the input*/
-	TreeNode *makeTreeNode(DataNode *data);
+	calculator(void);
+	~calculator(void);
+	void mainMethod();
+private:
+	int scan(DataNode *data, FILE *fptr);
+	TreeNode *make_TreeNode(DataNode *data);
 	void insertTreeNode(TreeNode *newTreeNode, TreeNode **root);
-	int preOrder(TreeNode *currentTreeNode, FILE *fpOutput,
-		int(*pVisit)(TreeNode *, int, int, FILE *fpOutput));
-	int inOrder(TreeNode *currentTreeNode, FILE *fpOutput,
-		int(*pVisit)(TreeNode *, int, int, FILE *fpOutput));
-	/*deleteTree*/
-	int postOrder(TreeNode *currentTree, FILE *fpOutput,
-		int(*pVisit)(TreeNode *, int, int, FILE *fpOutput));
-	int evaluate(TreeNode *currentTree, int leftData, int rightData, FILE *fpOutput);
-	int printNode(TreeNode *currentTree, int leftData, int rightData, FILE *fpOutput);
-	int deleteNode(TreeNode *currentTree, int leftData, int rightData, FILE *fpOutput);
-
+	void inOrder(TreeNode *currentTreeNode);
+	void preOrder(TreeNode *currentTreeNode);
+	void postOrder(TreeNode *currentTreeNode);
 };
 
 #endif

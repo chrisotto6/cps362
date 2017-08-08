@@ -1,9 +1,10 @@
+// Chris Otto
 // Main.cpp contains the calls to the other classes for application execution
 
 using namespace std;
 
 #include "info.h"
-#include "mainUI.h"
+#include "calculator.h"
 #include <iostream>
 
 void main() {
@@ -12,7 +13,7 @@ void main() {
 	myInfo.identity("Week 9 Assignment - Calculator", __DATE__);
 
 	// UI Class
-	mainUI exec;
+	calculator exec;
 	exec.mainMethod();
 
 	cin.ignore();
